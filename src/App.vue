@@ -2,10 +2,10 @@
   <div
     class="max-w-screen-sm mx-8 sm:mx-auto mt-8 border rounded-lg overflow-hidden"
   >
-    <div class="bg-green-500 px-6 py-4 text-white flex justify-between">
+    <div class="bg-green-500 px-6 py-4 text-red flex justify-between">
       <div>
         <router-link
-          :class="`py-1 px-3 rounded-md text-white font-bold select-none ${
+          :class="`py-1 px-3 rounded-md text-red font-bold select-none ${
             route.name === R.TODO ? 'bg-green-600' : ''
           }`"
           :to="{ name: R.TODO }"
