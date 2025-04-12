@@ -21,6 +21,7 @@ export const addTodo = (todo: string) => {
   }
 }
 
+// add comments
 export const finish = (id: number) => {
   const idx = todoStore.todoList.findIndex(it => it.id === id)
   if (idx !== -1) {
