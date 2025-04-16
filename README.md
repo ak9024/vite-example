@@ -1,6 +1,6 @@
 # vite-example
 
-**Todo** is better Hello World!
+**Todo** is Halo Dunia yang lebih baik!
 
 Live Preview: https://beary.github.io/vite-example/
 
